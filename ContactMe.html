@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact details</title>
+  </head>
+  <body style="background-color:#EFDDDD;" >
+    <h2>Contact details</h2>
+    <ul>
+      <li><strong>Email Address</strong> : <a href="mailto:abdullaaziz201@gmail.com">abdullaaziz201@gmail.com</a></li>
+      <li><strong>phone number</strong>  :<a href="tel:+971509548191">+971509548191</a></li>
+      <li><strong>home address </strong> : UAE-sharjah </li>
+    </ul>
+    <hr size="3" noshade>
+    <table>
+      <form action="mailto:201920061@ajmanuni.ac.ae" method="post" enctype="text/plain">
+        <!-- in the form we need some action because we the user click submit it return him to the main page -->
+        <!-- so our action here is open the email directly with my address when the user click submit -->
+        <!-- enctype (encoding type) attribute allow the user to type in al alot of language options+emoji -->
+        <!-- method==> post the data to the email-->
+      <tr>
+        <td><label>user name</label></td>
+        <td><input type="text" name="your Name" value="" > <br></td>
+        <!-- the value of name attribute will appear in the message then = the actual name of the user that he entered-->
+
+      </tr>
+      <tr>
+        <td><label>new password</label></td>
+        <td><input type="password" name="" value="" > <br></td>
+      </tr>
+      <tr>
+        <td><label>confirm password</label></td>
+        <td><input type="password" name="" value="" > <br></td>
+      </tr>
+      <tr>
+        <td><label> Email</label></td>
+        <td><input type="email" name="your Email" value="" > <br></td>
+      </tr>
+      <tr>
+        <td><label> date of birth</label></td>
+        <td><input type="date" name="" value="" > <br></td>
+      </tr>
+      <tr>
+        <td><label> your message:</label></td>
+        <td><textarea name="your Message" rows="8" cols="80"></textarea> <br></td>
+        <!-- the value of name attribute will appear in the message then = the user email that he-she entered-->
+        <!--  text area has 2 attributes that are really important -->
+        <!-- 1. rows:detrmine how tall your text area  -->
+        <!--   2. cols: detrmine how wide your text area -->
+
+      </tr>
+      <tr>
+        <td> <input type="submit"></td>
+      </tr>
+    </table>
+     </form>
+
+  </body>
+</html>
